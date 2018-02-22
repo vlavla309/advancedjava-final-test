@@ -1,4 +1,4 @@
-package prob8;
+package prob06;
 
 public class Reservation {
 	private int id;
