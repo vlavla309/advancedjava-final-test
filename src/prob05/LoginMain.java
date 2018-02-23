@@ -22,6 +22,14 @@ public class LoginMain {
 		/*
 		 *  로그인 처리 부분을 완성 합니다.
 		 */
+		try {
+			login(joinUsers, new User(id, password));
+			System.out.println("로그인 성공");
+		} catch (UserNotFoundException e) {
+			System.out.println(e.getMessage());
+		} catch (PasswordDismatchException e) {
+			System.out.println(e.getMessage());
+		}
 		
 
 	}
