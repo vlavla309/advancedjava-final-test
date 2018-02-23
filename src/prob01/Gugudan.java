@@ -63,7 +63,7 @@ public class Gugudan {
 	        
 	        boolean evaluted = false;
 	        for( int i = 0; i < occupied; i++ ) {
-	        	if( boardNumbers[i]==random ) {
+	        	if( boardNumbers[i]==random || resultNumber==random ) {
 	        		evaluted = true;
 	        		break;
 	        	}
