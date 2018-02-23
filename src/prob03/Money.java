@@ -33,7 +33,5 @@ public class Money {
 	public Money devide(Money other) {
 		return new Money(this.amount / other.amount);
 	}
-	
-	
     
 }
