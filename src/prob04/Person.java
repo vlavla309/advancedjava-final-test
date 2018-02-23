@@ -28,7 +28,6 @@ public class Person {
 		this.name = name;
 	}
 	public void selfIntroduce(){
-		// "내 이름은 ...이며, 나이는 ...살입니다." 출력함
 		System.out.println("내 이름은 "+name+"이며, 나이는 "+age+"입니다.");
 	}
 
