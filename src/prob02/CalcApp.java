@@ -28,6 +28,7 @@ public class CalcApp {
 			arith=new Div();
 			break;
 		}
-		System.out.println(arith.calculate(a, b));
+		if(arith!=null)
+			System.out.println(arith.calculate(a, b));
 	}
 }
